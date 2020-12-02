@@ -22,7 +22,7 @@ public class Group7Test {
 
   @Test
   public void Test2() {
-    assertFalse(Group7.array6(new int[] {5, 5, 3, 2}));
+    assertFalse(Group7.array6(new int[] {5, 5, 3, 2}, 0));
   }
   
   @Test
