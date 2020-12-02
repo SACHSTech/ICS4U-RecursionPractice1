@@ -15,6 +15,11 @@ public class Group2Test {
         // make assertion statement(s)
         assertEquals(1, Group2.sumDigits(1));
     }
-    
-    // add more tests
+
+    @Test
+    public void Test2(){
+        // make assertion statement(s)
+        assertEquals(6, Group2.sumDigits(123));
+    }
+  
 }

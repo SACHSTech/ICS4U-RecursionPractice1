@@ -4,7 +4,9 @@ public class Group2 {
     if (n < 10) {
       return n;
     }
-    return n;
+    else {
+      return (n % 10) + sumDigits(n/10);
+    }
 
   }
 
