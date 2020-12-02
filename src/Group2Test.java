@@ -1,6 +1,8 @@
-
+package recursiontdd;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+
+import recursiontdd.Group2;
 
 /**
 * See https://github.com/mrfabroa/Fabroa-ICS4U-NotesExamples/blob/main/src/tdd/TDDExampleTest.java for an example
