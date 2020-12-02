@@ -16,8 +16,10 @@ public class Group3Test {
       assertEquals(3,Group3.countX("xxhixno"));
         // make assertion statement(s)
         //assertEquals(EXPECTEDVALUE, yourClassToTest.methodToTest());
-        
     }
-    
-    // add more tests
+    @Test
+    public void Group3test2() {
+      assertEquals(2,Group3.countX("dXxXXdXx"));
+      
+    }
 }
