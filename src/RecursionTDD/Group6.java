@@ -17,7 +17,7 @@ public class Group6 {
       return noX(str.substring(1));
     }
 
-    // If the string does not contain an 'x', the program repeats the method on the string without skipping any characters.
+    // If the string does not contain an 'x', the program repeats the method on the string without skipping any characters
     return str.substring(0,1) + noX(str.substring(1));
   }
 }
