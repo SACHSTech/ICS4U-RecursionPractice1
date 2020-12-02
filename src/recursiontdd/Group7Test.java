@@ -19,4 +19,6 @@ public class Group7Test {
     //assertEquals(EXPECTEDVALUE, yourClassToTest.methodToTest());
     assertEquals(true, Group7.array6(new int[]{6, 5, 9, 7}, 0));
   }
+
+  
 }

@@ -19,10 +19,14 @@ public class Group7 {
   */
   public static boolean array6(int[] nums, int index) {
 
+    // Base case
+    if (index == nums.length) return false;
 
-    if (nums[index] == 6) {
+    // Recursive call
+    if (nums[index] == 6 || array6(nums, index + 1)) {
       return true;
     }
+    // Neither
     return false;
 
  
