@@ -32,5 +32,10 @@ public class Group3Test {
       assertEquals(2,Group3.countX("xxnolol"));
       
     }
+    @Test
+    public void Group3test5() {
+      assertEquals(0,Group3.countX("dawsd"));
+      
+    }
     
 }
