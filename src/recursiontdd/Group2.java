@@ -1,3 +1,5 @@
+package recursiontdd;
+
 public class Group2 {
 /**
 * Program that finds the sum of the digits in a number
