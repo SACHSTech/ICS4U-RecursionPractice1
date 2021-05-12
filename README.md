@@ -4,8 +4,8 @@
 1. One member of the group fork this repository and import your fork into repl.it
 2. Share the repl with your group members to allow multiplayer development on the repl
 4. Discuss a recursive solution to your problem.
-5. Create a .java file name `Group#.java.`
-6. Make a copy of the test file `TestTemplateTest.java` and rename the it `Group#Test.java`
+5. Create a .java file name `Group#.java` in the `recursiontdd` package
+6. Make a copy of the test file `TestTemplateTest.java` and rename the it `Group#Test.java` in the `recursiontdd` package.
 5. Use TDD practices to implement your solution by cycling through **Red-Green-Refactor** stages, adding tests to `Group#Test.java` and coding your *recursive* solution (in the form of a method) in `Group#.java`
 5. Commit and push your work to github after each passing of a test.
 6. Issue a pull request to get your solution in your fork to the parent repo.
